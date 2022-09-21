@@ -1,0 +1,82 @@
+
+.speech {
+font: 100;
+font-style: normal;
+font-family: serif;
+color: black;
+font-size: 15px;
+}
+.name {
+font: 100;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 15px;
+
+}
+.direction {
+color:black;
+background-color:beige;
+font-style: inherit;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color:lightpink;
+font-size: 15px;
+}
+
+.direction:hover {
+  color:cyan;
+    background-color:cadetblue;
+  }
+
+  .name:hover {
+    color:rgb(255, 234, 0);
+    background-color:darkgrey;
+    text-shadow: 4px 4px 4px rgb(255, 234, 0);
+    border : 1 px solid black;
+  }
+
+
+.DUKE{
+
+    color:cornflowerblue;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.LUIZ{
+
+    color:darkgoldenrod;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.DUCH{
+    color:deeppink;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ .singers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+ 
+  .singers td, .singers th {
+    border: 1px solid  cornflowerblue(255, 0, 0);
+    padding: 8px;
+  }
+ 
+  .singers tr:nth-child(even){background-color: #f2f2f2;}
+ 
+  .singers tr:hover {background-color: rgb(228, 183, 183);}
+ 
+  .singers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align:center;
+    background-color:darkolivegreen(0, 255, 13);
+    color: rgb(0, 0, 0);
+  }
+
+  
+  
