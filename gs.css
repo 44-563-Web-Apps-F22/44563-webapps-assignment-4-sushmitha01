@@ -45,13 +45,13 @@ font-size: 15px;
 
 .All{
 
-    color:cornflowerblue;
+    color:rgb(4, 252, 29);
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .SAMUEL{
 
-    color:darkgoldenrod;
+    color:rgb(45, 5, 250);
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -61,7 +61,46 @@ font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
- 
+.singers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
 
-  
-  
+}
+
+.singers td, .singers th {
+  border: 1px solid  cornflowerblue(255, 0, 0);
+  padding: 8px;
+}
+
+.singers tr:nth-child(even){background-color: rgb(238, 247, 176);}
+
+.singers tr:hover {background-color: rgb(153, 237, 246);}
+
+table th,
+td {
+    border: 3px solid;
+
+
+}
+
+tr:nth-child(odd) {
+    background-color:rgb(218, 245, 110);
+}
+
+td {
+    text-align: center;
+
+}
+
+th,
+td {
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color:rgb(234, 255, 0);
+    color: black
+ 
+}
