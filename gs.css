@@ -37,8 +37,8 @@ font-size: 15px;
 
   .name:hover {
     color:rgb(255, 234, 0);
-    background-color:darkgrey;
-    text-shadow: 4px 4px 4px rgb(255, 234, 0);
+    background-color:rgba(105, 96, 56, 0.931);
+    text-shadow: 4px 4px 4px rgb(208, 200, 119);
     border : 1 px solid black;
   }
 
@@ -104,3 +104,5 @@ th {
     color: black
  
 }
+
+
