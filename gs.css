@@ -40,6 +40,7 @@ font-size: 15px;
     background-color:rgba(105, 96, 56, 0.931);
     text-shadow: 4px 4px 4px rgb(208, 200, 119);
     border : 1 px solid black;
+    filter:blur(1px);
   }
 
 
