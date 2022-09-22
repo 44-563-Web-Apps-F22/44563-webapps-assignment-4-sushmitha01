@@ -106,4 +106,9 @@ th {
  
 }
 
+ul.navbar-horizontal li{
+   float:left;
+   display:inline;
+}
+
 
